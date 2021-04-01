@@ -1,0 +1,23 @@
+{
+  "name": "opencurrency",
+  "version": "0.0.4",
+  "description": "Library for fetching and converting between currencies",
+  "main": "dist/index.js",
+  "author": "Jack Pordi",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.20.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
